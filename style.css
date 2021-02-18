@@ -1,9 +1,21 @@
 @charset "UTF-8";
 
-body {
-	background-image: url("images/background.jpg");
-	background-repeat: no-repeat;
-  	background-size: cover;
+#presentation {
+	background-color: #7451eb;
+	color: white;
+	height: 400px;
+	width: auto;
+}
+
+#competences {
+	background-color: #ffffff;
+	height: 400px;
+}
+
+#contact {
+	background-color: #003668;
+	color: white;
+	height: 400px;
 }
 
 h1 {
@@ -12,7 +24,7 @@ h1 {
 }
 img {
 	display: block;
-	margin-left: auto;
+	margin-left: left;
 	margin-right: auto;
 }
 
