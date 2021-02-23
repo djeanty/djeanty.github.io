@@ -3,7 +3,7 @@
 body {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: center; 
 	margin: 0px;
 }
 
@@ -22,11 +22,24 @@ p {
 }
 
 #presentation {
+	display: grid;
+	grid-template-columns: 30% 30%;
+	grid-gap: 100px;
 	background-color: #7451eb;
 	color: white;
 }
 
+#gridText {
+	
+}
+#gridImage {
+	margin: 30px;
+}
+
 #competences {
+	display: grid;
+	grid-template-columns: 10% 70%;
+	grid-gap: 100px;
 	background-color: #ffffff;
 }
 
@@ -36,6 +49,9 @@ p {
 }
 
 #photoProfil {
+	border-style: solid;
+	border-color: black;
+	border-opacity: 50%
 }
 
 li {
