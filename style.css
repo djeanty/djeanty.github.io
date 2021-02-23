@@ -1,33 +1,49 @@
 @charset "UTF-8";
 
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 3em;
+	margin-left: 30px;
+}
+
+h2 {
+	font-size: 2em;
+	margin-left: 30px;
+}
+
+p {
+	margin-left: 30px;
+}
+
 #presentation {
 	background-color: #7451eb;
 	color: white;
-	height: 400px;
-	width: auto;
 }
 
 #competences {
 	background-color: #ffffff;
-	height: 400px;
 }
 
 #contact {
 	background-color: #003668;
 	color: white;
-	height: 400px;
 }
 
-h1 {
-	color: green;
-	text-align: center;
-}
-img {
-	display: block;
-	margin-left: left;
-	margin-right: auto;
+#photoProfil {
 }
 
 li {
-	color: blue;
+	margin-left: 30px;
+}
+
+
+.enEvidence {
+	color: black;
+	background-color: lightgreen;
 }
