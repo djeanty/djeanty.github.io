@@ -41,6 +41,8 @@ p {
 
 
 #photoProfil {
+	width: 250px;
+	height: 250px;
 	border: solid black;
 	border-radius: 7%;
 }
@@ -48,8 +50,8 @@ p {
 
 #competences {
 	display: grid;
-	grid-template-columns: 12% 50%;
-	grid-template-rows: 10% 100%;
+	grid-template-columns: 12% 70%;
+	grid-template-rows: auto 80%;
 	grid-gap: 100px;
 	padding-left: 80px;
 	background-color: #ffffff;
@@ -66,9 +68,19 @@ p {
 }
 
 #competencesIcon {
-	margin: auto;
 	
+	margin: auto;
+	height: auto;
+	min-width: 100%;
 }
+
+#iconDevelopper {
+	width: 250px;
+	height: 250px;
+	padding: 10% 0% 0% 0%;
+}
+
+
 
 #contact {
 	background-color: #003668;
@@ -93,4 +105,23 @@ p {
 .enEvidence {
 	color: black;
 	background-color: lightgreen;
+}
+
+@media screen and (max-width: 1000px) {
+	#iconDevelopper {
+		width: 128px;
+		height: 128px;
+		padding: 10% 0% 0% 0%;
+	}
+	
+	#photoProfil {
+		width: 128px;
+		height: 128px;
+		
+	}
+	
+	#contact > a > img {
+	width: 64px;
+	height: 64px;
+}
 }
