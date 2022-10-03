@@ -7,19 +7,21 @@ body {
 	margin: 0px;
 }
 
-
-
-#presentation {
+#aboutMe {
 	display: grid;
 	grid-template-columns: 50% 20%;
 	grid-gap: 100px;
-	background-color: #7451eb;
+	background-color: MidnightBlue;
 	color: white;
 	padding-left: 100px;
 }
 
-#gridText {
+#aboutMeText {
 	padding: 0px 0px 0px 0px;	
+}
+
+#aboutMeImage {
+	margin: auto;
 }
 
 
@@ -35,20 +37,18 @@ p {
 	font-size: 2em;
 }
 
-#gridImage {
-	margin: auto;
-}
 
 
-#photoProfil {
-	width: 250px;
-	height: 250px;
+#profilePic {
+    filter: grayscale(100%);
+	width: 300px;
+	height: 300px;
 	border: solid black;
 	border-radius: 7%;
 }
 
 
-#competences {
+#skills {
 	display: grid;
 	grid-template-columns: 12% 70%;
 	grid-template-rows: auto 80%;
@@ -57,33 +57,31 @@ p {
 	background-color: #ffffff;
 }
 
-#competencesText  > p, li {
+#skillsText  > p, li {
 	font-size: 1.5em;
 	color: black;
 }
 
 
-#competencesText > li {
+#skillsText > li {
 	margin-left: 100px;
 }
 
-#competencesIcon {
+#skillsImage {
 	
 	margin: auto;
 	height: auto;
-	min-width: 100%;
+	min-width: 150%;
 }
 
-#iconDevelopper {
+#devIcon {
 	width: 250px;
 	height: 250px;
 	padding: 10% 0% 0% 0%;
 }
 
-
-
 #contact {
-	background-color: #003668;
+	background-color: blue;
 	color: white;
 	padding: 0px 0px 50px 100px;
 }
@@ -102,19 +100,19 @@ p {
 }
 
 
-.enEvidence {
+em {
 	color: black;
-	background-color: lightgreen;
+	background-color: grey;
 }
 
 @media screen and (max-width: 1000px) {
-	#iconDevelopper {
+	#iconPic {
 		width: 128px;
 		height: 128px;
 		padding: 10% 0% 0% 0%;
 	}
 	
-	#photoProfil {
+	#profilePic {
 		width: 128px;
 		height: 128px;
 		
@@ -123,5 +121,5 @@ p {
 	#contact > a > img {
 	width: 64px;
 	height: 64px;
-}
+    }
 }
