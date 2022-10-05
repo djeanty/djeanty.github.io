@@ -1,125 +1,43 @@
 @charset "UTF-8";
 
 body {
-	display: flex;
-	flex-direction: column;
-	justify-content: center; 
-	margin: 0px;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
 }
 
-#aboutMe {
-	display: grid;
-	grid-template-columns: 50% 20%;
-	grid-gap: 100px;
-	background-color: MidnightBlue;
-	color: white;
-	padding-left: 100px;
+header {
+    overflow: hidden; /* for the white line on top of site*/
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 2em;
 }
 
-#aboutMeText {
-	padding: 0px 0px 0px 0px;	
+/* LEFT SIDE */
+
+/*
+* Logos
+*/
+
+ul {
+    /* TODO set image
+    /* list-style-image: url('');
+    */
 }
 
-#aboutMeImage {
-	margin: auto;
-}
-
+/* RIGHT SIDE */
 
 h1 {
-	font-size: 5em;
+    /* TODO change size */
 }
 
-h2 {
-	font-size: 4em;
-}
-
-p {
-	font-size: 2em;
-}
-
-
-
-#profilePic {
-    filter: grayscale(100%);
-	width: 300px;
-	height: 300px;
-	border: solid black;
-	border-radius: 7%;
-}
-
-
-#skills {
-	display: grid;
-	grid-template-columns: 12% 70%;
-	grid-template-rows: auto 80%;
-	grid-gap: 100px;
-	padding-left: 80px;
-	background-color: #ffffff;
-}
-
-#skillsText  > p, li {
-	font-size: 1.5em;
-	color: black;
-}
-
-
-#skillsText > li {
-	margin-left: 100px;
-}
-
-#skillsImage {
-	
-	margin: auto;
-	height: auto;
-	min-width: 150%;
-}
-
-#devIcon {
-	width: 250px;
-	height: 250px;
-	padding: 10% 0% 0% 0%;
-}
-
-#contact {
-	background-color: blue;
-	color: white;
-	padding: 0px 0px 50px 100px;
-}
-#contact > a {
-	margin-left: 70px;
-	
-}
-
-#contact > h2, p {
-	color: white;
-}
-
-#contact > a > img {
-	width: 128px;
-	height: 128px;
-}
-
-
-em {
-	color: black;
-	background-color: grey;
-}
-
-@media screen and (max-width: 1000px) {
-	#iconPic {
-		width: 128px;
-		height: 128px;
-		padding: 10% 0% 0% 0%;
-	}
-	
-	#profilePic {
-		width: 128px;
-		height: 128px;
-		
-	}
-	
-	#contact > a > img {
-	width: 64px;
-	height: 64px;
-    }
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
 }
